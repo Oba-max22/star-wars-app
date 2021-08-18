@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Rubik', 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.tableDiv {
+    margin: 1.5%;
+    padding: 0 1rem 1rem 1rem;
+    background: #fff;
+    border-spacing: 0;
+    border-radius: 10px;
+  }
+  
+  table tr :last-child td {
+    border-bottom: 0;
+  }
+  
+  table .defaultColumnInput {
+    border: none;
+    font-size: small;
+    display: none;
+  }
+  
+  table th {
+    margin: 0;
+    padding: 1.0rem;
+    color: #A3ABB7;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  table th :last-child {
+    border-right: 0;
+  }
+  
+  table td {
+    margin: 0;
+    padding: 1.0rem;
+  }
+  
+  table td :last-child {
+    border-right: 0;
+  }

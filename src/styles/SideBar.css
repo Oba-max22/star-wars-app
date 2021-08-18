@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar-wrapper {
+    position: fixed;
+    width: 280px;
+    height: 100%;
+    display: flex;
+    flex-shrink: 0;
+    background: #ffffff;
+    flex-direction: column;
+    margin: 0;
+    border: 0.4px solid #DBE3EE;
+
+  }
+
+  .logo-img {
+    width:155px;
+    height:66px;
+    align-self: center;
+    margin-top: 36px;
+  }
+  
+  .menu-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 0;
+    overflow-y: auto;
+  }
+  
+  .nav-link {
+    width: 45%;
+    outline: 0;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 20px 55px 20px 30px;
+    text-decoration: none;
+    transition: 0.15s ease-in-out;
+  }
+
+  .nav-link-icon {
+    margin-right: 10px;
+  }
+  
+  /* medium screen */
+  @media screen and (max-width: 1199px) {
+    .nav-link-icon,
+    .title {
+      display: none;
+    }
+    .sidebar-wrapper {
+      flex-direction: row;
+      margin: 0rem;
+      width: 60%;
+      height: auto;
+      margin: auto;
+      margin-top: 50px;
+    }
+    .sign-out-image {
+      padding-right: 2x;
+    }
+    .sign-out-text {
+      display: none;
+    }
+    .menu-wrapper {
+      flex-direction: row;
+      padding: 0;
+    }
+    .nav-link {
+      padding: 10px;
+      font-weight: bold;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+    }
+    .menu-wrapper .nav-link.active {
+      color: #000000;
+      border-radius: 0 !important;
+    }
+    .sign-out-button {
+      padding: 0 20px;
+      text-align: center;
+      background-color: #fff;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .nav-link-text,
+    .title {
+      display: none;
+    }
+    .nav-link-icon {
+      display: block;
+    }
+    .nav-link {
+      padding-top: 0;
+      padding-bottom: 10px;
+    }
+  }
+  
+  .sidebar-links:hover {
+    color: #000 !important;
+  }

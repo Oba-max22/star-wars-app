@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Rubki', 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 80px;
+    background: #fff;
+    padding: 0 20px;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .title {
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.header ul {
+    width: 10%;
+    list-style: none;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ul li {
+    font-weight: 500;
+    font-size: 25px;
+    margin: 10px;
+    color: #808B9D;
+}

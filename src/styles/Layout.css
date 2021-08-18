@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Rubki', 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f6f6f6;
+}
+
+.main-wrapper {
+    background: #f6f6f6;
+    position: relative;
+    min-height: 100vh;
+    width: calc(100% - 280px);
+    left: 280px;
+}
