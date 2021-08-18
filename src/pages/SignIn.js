@@ -19,19 +19,25 @@ const SignIn = () => {
                 <div className="bottom-box">
                 </div>
             </div>
-            <div className="second-section">
-                <h5>Sign in to continue to your account.</h5>
-                <form>
-                        <label for="email">Email address</label>
-                        <input type="email" placeholder="Email address" name="email" required/>
-                        <label for="password">Password</label>
-                        <input type="password" placeholder="Enter strong password" name="password" required/>
+            <section className="main-second-section">
+                <div className="second-section">
+                    <h4>Sign in to continue to your account.</h4>
+                    <form>
+                        <div>
+                            <label for="email">Email address</label>
+                            <input type="email" placeholder="Email address" name="email" required/>
+                        </div>
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" placeholder="Enter strong password" name="password" required/>
+                        </div>
                         <button onClick = {goToDashboard}>Sign In</button>
-                </form>
-            </div>
-            <div className="third-section">
-                <img src='./images/flags.svg' alt='flags bg' className='flags-img' />
-            </div>
+                    </form>
+                </div>
+                <div className="third-section">
+                    <img src='./images/flags.svg' alt='flags bg' className='flags-img'/>
+                </div>
+            </section>
             
         </div>
     );
